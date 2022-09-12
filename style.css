@@ -105,3 +105,7 @@ body {
     color: white;
     text-transform: uppercase;
 }
+
+.button__as__link:hover{
+    transform: scale(1.2);
+}
