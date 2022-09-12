@@ -1,3 +1,11 @@
+body {
+    background-image: url(./views/spider-man-miles-morales-4k-2020-ix-1920x1080\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
 /*Cabeçalho*/
 
 .cabecalho {
@@ -76,7 +84,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    height: 100%;
+    height: 110%;
     width: 100%;
     align-items: center;
 }
@@ -93,4 +101,5 @@
 .button__as__link a {
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
