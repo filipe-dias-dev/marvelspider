@@ -14,6 +14,7 @@ body {
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
+    background: rgba(29, 29, 29, 0.5); 
 }
 
 @media screen and (min-width: 0px) {
