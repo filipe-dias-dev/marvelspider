@@ -43,6 +43,7 @@ body {
 .menu__item {
     padding-right: 0.5rem;
     text-transform: uppercase;
+    color: #f2f2f2;
 }
 
 /*Main*/
