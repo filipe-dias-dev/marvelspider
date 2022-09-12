@@ -1,0 +1,30 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width: 0px) {
+    .cabecalho {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .logo {
+        display: block;
+    }
+}
+
+.menu__lista {
+    display: flex;
+}
