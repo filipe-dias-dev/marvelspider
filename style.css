@@ -81,6 +81,16 @@
     align-items: center;
 }
 
-.botao__as__link {
+.button__as__link {
+    background: #1d1d1d;
+    padding: 0.8rem 2.9rem;
+    border-radius: solid red;
+    border-radius: 0.1px 1.5ch;
+    border-style: ridge;
+    cursor: pointer;
+}
 
+.button__as__link a {
+    text-decoration: none;
+    color: white;
 }
