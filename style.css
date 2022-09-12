@@ -1,3 +1,5 @@
+/*Cabeçalho*/
+
 .cabecalho {
     align-items: center;
     display: flex;
@@ -34,3 +36,38 @@
     padding-right: 0.5rem;
     text-transform: uppercase;
 }
+
+/*Main*/
+
+.descricao {
+    display: flex;
+}
+
+.descricao__titulo {
+    justify-content: center;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    font-size: 2.7rem;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.descricao__paragrafo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    align-items: center;
+}
+
+@media screen and (min-width: 0px) {
+    .imagem__miles__morales {
+        max-width: 100%
+    }
+}
+
